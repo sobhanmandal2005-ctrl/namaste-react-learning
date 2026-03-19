@@ -8,3 +8,23 @@ Here I will upload:
 - Practice projects
 
 Instructor: Akshay Saini
+
+
+# Parcel
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement 
+- File Watching Algorithm = written in C++
+- Caching = Faster Builds 
+- Image Optimiation 
+- Minification 
+- Bundling 
+- Compressing your files 
+- Consistent Hashing 
+- Code splitting 
+- Differential Bundling - support older browsers 
+- Diagnostic 
+- Error handling 
+- HTTPs
+- Tree Shaking - remove unused code from u 
+- Different dev & production bundles 
