@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 100px; /* Adds space between nav items */
+} 
+
+
+/* Remove incorrect selector and add spacing to li if needed */
+.nav-items > ul > li {
+  padding: 10px 0;
+}
+
+/* Add extra right gap to the last nav item (Cart) */
+.nav-items > ul > li:last-child {
+  margin-right: 40px;
+}

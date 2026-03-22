@@ -1,18 +1,38 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-//React element
-const title = (
-  <h1 className="head">Namaste react using JSX 🚀</h1>
-);
+//Header 
+// Body
+//Footer
 
-const HeadingComponent = () => (
-  <div> 
-    <title/>
-    <h1 className="heading"> Namaste React Functional component</h1>
-  </div>
-);
+const Header = () => {
+  return (
+    <div className="header">
+      <div className="logo-container"> 
+      <img className="logo" src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png"/>
+    </div>
+
+    <div className="nav-items">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Cart</li>
+      </ul>  
+    </div>
+    </div>
+  );
+};
+
+const AppLayout = () => {
+  return (
+    <div className="app">
+      <Header/>
+    </div>
+  );
+};
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeadingComponent />);
+root.render(<AppLayout/>);
