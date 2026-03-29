@@ -5,17 +5,22 @@
 }
 
 .logo {
-  width: 50px;
+  width: 80px;
   margin-top: 5px;
   margin-left: 15px;
 }
 
 
+
+
+
 .nav-items > ul {
+  font-size: 16px;
   display: flex;
   list-style-type: none;
-  gap: 100px; /* Adds space between nav items */
-} 
+  gap: 100px;
+  margin-top: 25px;
+}
 
 
 /* Remove incorrect selector and add spacing to li if needed */
@@ -26,4 +31,35 @@
 /* Add extra right gap to the last nav item (Cart) */
 .nav-items > ul > li:last-child {
   margin-right: 40px;
+}
+
+
+.res-containers {
+  display: flex;
+  flex-wrap: wrap;
+  color: aquamarine;
+}
+
+.res-card {
+  margin: 5px;
+  padding: 15px;
+  width: 200px;
+  color: rgb(135, 91, 91);
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  opacity: 0.9;
+}
+
+.search-container {
+  padding: 10px;
+}
+
+.res-logo {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
 }
